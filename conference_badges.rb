@@ -9,4 +9,5 @@ def assign_rooms
   counter = 1 
   badge_maker.each do |badge_maker| 
     Puts "Hello #{badge_maker}, you'll be assigned to room #{counter}!"
+    counter += 1 
   end
